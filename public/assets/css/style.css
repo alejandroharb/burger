@@ -1,0 +1,31 @@
+.background-img {
+    background-image: url('../img/burger.jpeg');
+    background-repeat: no-repeat;
+    background-position:center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+
+    position: fixed;
+    left: 0;
+    right: 0;
+    top:0;
+    bottom:0;
+    z-index: -1000;
+    display: block;
+    width: 100%;
+
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
+}
+.card {
+    opacity:0.88;
+}
+li p{
+    font-size: 34px;
+    font-family: cursive;
+}
